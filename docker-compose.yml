@@ -48,7 +48,9 @@ services:
     # where build: below is used instead (image: + build: can coexist — compose
     # builds and tags it as IMAGE when you pass --build, otherwise it pulls).
 
-    # image: ${IMAGE:-ghcr.io/54keesh/learning-node:latest}
+    image: ${IMAGE:-ghcr.io/ali27-dev/learning-docker:latest}
+    # image: ${IMAGE:-ghcr.io/54keesh/learning-node:latest
+    # https://github.com/ali27-dev/learning-docker
 
     build:
       # where to find the docker file
