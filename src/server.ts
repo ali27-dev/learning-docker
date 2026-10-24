@@ -8,4 +8,4 @@ serve({
   hostname: "0.0.0.0", // Allows outside traffic to connect
 });
 
-console.log("Running on http://localhost:3000");
+console.log("Running on http://localhost:3000 with Hono server");
